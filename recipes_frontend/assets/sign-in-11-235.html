@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - 11:235</title>
+  <meta name="viewport" content="width=375, initial-scale=1.0">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./sign-in-11-235.css">
+</head>
+<body>
+  <!-- Screen container -->
+  <div id="screen-sign-in-11-235" class="screen">
+    <!-- Status Bar -->
+    <div class="component status-bar" style="left:0px; top:0px; width:375px; height:44px; z-index:1;">
+      <!-- Symbols group (battery/wifi as decorative) -->
+      <div class="symbols" style="position:absolute; left:293.5px; top:16.6px; width:68px; height:13px;">
+        <!-- Battery (decorative shapes) -->
+        <div class="battery" style="position:absolute; left:45.5px; top:17.0px; width:24.5px; height:11.5px;"></div>
+      </div>
+      <!-- Time -->
+      <div class="time" style="position:absolute; left:0px; top:12px; width:180px; height:22px;">
+        <span class="text time-text" style="position:absolute; left:29.5px; top:2px;">19:27</span>
+      </div>
+    </div>
+
+    <!-- Title group -->
+    <div class="group title" style="left:30px; top:94px; width:155px; height:75px; z-index:2;">
+      <p class="text title-hello" style="left:0px; top:0px; width:84px; height:45px;">Hello,</p>
+      <p class="text title-welcome" style="left:0px; top:45px; width:155px; height:30px;">Welcome Back!</p>
+    </div>
+
+    <!-- Input field: Email -->
+    <div class="component input-field email" style="left:30px; top:226px; width:315px; height:81px; z-index:3;">
+      <div class="rect input-bg" style="left:0px; top:26px; width:315px; height:55px;"></div>
+      <p class="text input-placeholder" style="left:20px; top:45px; width:61px; height:17px;">Enter Email</p>
+      <p class="text input-label" style="left:0px; top:0px; width:38px; height:21px;">Email</p>
+    </div>
+
+    <!-- Input field: Password -->
+    <div class="component input-field password" style="left:30px; top:337px; width:315px; height:81px; z-index:4;">
+      <div class="rect input-bg" style="left:0px; top:26px; width:315px; height:55px;"></div>
+      <p class="text input-placeholder" style="left:20px; top:45px; width:84px; height:17px;">Enter Password</p>
+      <p class="text input-label" style="left:0px; top:0px; width:107px; height:21px;">Enter Password</p>
+    </div>
+
+    <!-- Forgot Password -->
+    <div class="group forgot" style="left:40px; top:438px; width:97px; height:17px; z-index:5;">
+      <p class="text forgot-text" style="left:0px; top:0px; width:97px; height:17px;">Forgot Password?</p>
+    </div>
+
+    <!-- Or Sign in With line -->
+    <div class="group line-with-text" style="left:90px; top:568px; width:195px; height:17px; z-index:6;">
+      <div class="line l-left" style="left:0px; top:9px; width:50px; height:0px;"></div>
+      <p class="text or-text" style="left:57px; top:0px; width:81px; height:17px;">Or Sign in With</p>
+      <div class="line l-right" style="left:145px; top:9px; width:50px; height:0px;"></div>
+    </div>
+
+    <!-- Social Buttons -->
+    <div class="group btn-google" style="left:131px; top:605px; width:44px; height:44px; z-index:7;">
+      <!-- Rect with shadow and radius -->
+      <div class="rect social-bg" style="left:0px; top:0px; width:44px; height:44px;"></div>
+      <!-- Google Icon composed as single svg image from provided path -->
+      <img alt="icons8-google-240 1" class="icon" src="figmaimages/figma_image_13_48.svg" style="position:absolute; left:10px; top:10px; width:24px; height:24px;">
+    </div>
+
+    <div class="group btn-facebook" style="left:200px; top:605px; width:44px; height:44px; z-index:8;">
+      <div class="rect social-bg" style="left:0px; top:0px; width:44px; height:44px;"></div>
+      <img alt="vuesax/bold/facebook" class="icon" src="figmaimages/figma_image_13_58.svg" style="position:absolute; left:10px; top:10px; width:24px; height:24px;">
+    </div>
+
+    <!-- CTA Big Button -->
+    <button type="button" id="sign-in-btn" class="component big-button" style="left:30px; top:480px; width:315px; height:60px; z-index:9;">
+      <span class="text big-button-label">Sign In</span>
+      <img alt="Icon/General/Arrow-Right" class="icon arrow-right" src="figmaimages/figma_image_54_668_53_625.svg" />
+    </button>
+
+    <!-- Bottom Home Indicator -->
+    <div class="component home-indicator" style="left:0px; top:782px; width:375px; height:34px; z-index:10;">
+      <div class="rect home-line" style="left:135px; top:21px; width:135px; height:5px;"></div>
+    </div>
+
+    <!-- Footer text -->
+    <p class="text signup-text" style="left:99px; top:682px; width:177px; height:17px; z-index:11;">Don’t have an account? Sign up</p>
+  </div>
+
+  <script src="./app.js"></script>
+  <script src="./sign-in-11-235.js"></script>
+</body>
+</html>
